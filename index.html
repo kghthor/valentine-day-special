@@ -24,7 +24,47 @@
     background-position: center center;
     background-attachment: fixed;
 }
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background: #ff4d6d; 
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.3s ease;
+    z-index: 1000;
+}
 
+.btn:hover {
+    background: #ff1a4d;
+}
+
+.magic-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.magic-box h2 {
+    margin-bottom: 10px;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+#wishText {
+    color: red;
+}
   </style>
 
   </head>

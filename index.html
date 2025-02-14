@@ -182,6 +182,14 @@ document.querySelector('.yes-btn').addEventListener('click', function() {
     }
 
     playAudioAfterDelay(32000);
+    // Opens a new window with 80% of the default window size
+function openWindow() {
+    const width = window.innerWidth * 0.8; // 80% of the screen width
+    const height = window.innerHeight * 0.8; // 80% of the screen height
+    
+    window.open('your-page-url.html', '_blank', `width=${width},height=${height}`);
+}
+
 </script>
 
     

@@ -13,7 +13,7 @@ Embedded audio player with a romantic song.
 Easy customization for adding your own touch.
 
 ## Usage
-Clone the repository to your local machine:
+Clone the repository to your local machine: 
 
 `git clone https://github.com/kghthor/valentine-day-special.git`
 
